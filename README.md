@@ -300,14 +300,16 @@ Please open an Issue or submit a Pull Request.
 
 ---
 
-# Status Legend
+## Status Definitions
 
 | Status | Meaning |
-|---------|---------|
-| ✅ | Available |
-| 🚧 | Planned |
-| 🧪 | Experimental |
-| ❌ | Discontinued |
+|--------|---------|
+| 🚧 Planned | An MCP server has been proposed or is planned for this provider. No official or community implementation is currently available in this repository. |
+| 🧪 Experimental | An early prototype or proof of concept exists but is not yet production-ready. |
+| ✅ Available | A working MCP server or implementation is available and documented. |
+| 🤝 Community | A community-maintained MCP implementation is available. |
+| 🛠️ In Development | Active development is in progress. |
+| ❌ Discontinued | The project is no longer maintained. |
 
 ---
 
