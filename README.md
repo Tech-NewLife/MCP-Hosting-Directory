@@ -1,107 +1,263 @@
-# Awsome Hosting MCP
+# Awesome Hosting MCP
 
-> A community-maintained collection of Model Context Protocol (MCP) servers for hosting providers, control panels, infrastructure platforms, virtualization, monitoring, and automation tools.
+> A curated collection of **Model Context Protocol (MCP)** servers, SDKs, tools, and resources for hosting providers, cloud platforms, control panels, virtualization, networking, monitoring, security, and automation.
 
-## Overview
+![GitHub stars](https://img.shields.io/github/stars/Tech-NewLife/awesome-hosting-mcp?style=flat-square)
+![GitHub license](https://img.shields.io/github/license/Tech-NewLife/awesome-hosting-mcp?style=flat-square)
+![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square)
 
-The goal of this repository is to provide a centralized list of MCP servers that enable AI assistants to securely interact with hosting and infrastructure platforms.
+---
 
-Whether you're managing VPSs, dedicated servers, DNS, web hosting accounts, or cloud infrastructure, this repository aims to become the go-to resource for hosting-related MCP implementations.
+## What is MCP?
 
-## Categories
+**Model Context Protocol (MCP)** is an open protocol that allows AI assistants to securely connect to external applications, APIs, databases, infrastructure platforms, and services through MCP servers.
 
-### Hosting Providers
+Instead of building separate integrations for every AI application, developers can expose functionality through an MCP server, allowing compatible AI assistants to discover and use tools in a standardized way.
 
-- InterServer
-- Contabo
-- Hostinger
-- Hetzner
-- OVHcloud
-- DigitalOcean
-- Vultr
-- Linode (Akamai)
-- Scaleway
+This repository focuses specifically on the **hosting and infrastructure ecosystem**.
 
-### Cloud & Infrastructure
+---
 
-- Cloudflare
-- AWS
-- Microsoft Azure
-- Google Cloud Platform
+# Why Awesome Hosting MCP?
 
-### Control Panels
+Hosting platforms are made up of many different technologies:
 
-- cPanel / WHM
-- Plesk
-- DirectAdmin
-- CyberPanel
-- ISPConfig
+- Hosting Providers
+- Cloud Platforms
+- Control Panels
+- DNS Providers
+- Virtualization Platforms
+- Web Servers
+- Databases
+- Monitoring Solutions
+- Security Tools
+- Billing Systems
 
-### Virtualization
+As MCP adoption grows, implementations are becoming scattered across different repositories and organizations.
 
-- Proxmox VE
-- Virtualizor
-- SolusVM
-- VMware
-- Hyper-V
+The goal of this project is to provide **one centralized place** to discover, compare, and contribute hosting-related MCP servers.
 
-### DNS
+---
 
-- Cloudflare DNS
-- PowerDNS
-- BIND
-- Route53
+# Contents
 
-### Web Servers
+- [Hosting Providers](#hosting-providers)
+- [Cloud & Infrastructure](#cloud--infrastructure)
+- [Control Panels](#control-panels)
+- [Virtualization](#virtualization)
+- [DNS](#dns)
+- [Web Servers](#web-servers)
+- [Databases](#databases)
+- [Containers](#containers)
+- [Monitoring](#monitoring)
+- [Backup](#backup)
+- [Billing & Automation](#billing--automation)
+- [Security](#security)
+- [Development](#development)
+- [Resources](#resources)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+---
 
-- LiteSpeed
-- Apache
-- Nginx
-- OpenLiteSpeed
+# Hosting Providers
 
-### Databases
+| Provider | Description | Status |
+|-----------|-------------|:------:|
+| InterServer | VPS, Dedicated Servers, Shared Hosting, DNS, Billing | 🚧 Planned |
+| Contabo | VPS and Dedicated Server Management | 🚧 Planned |
+| Hostinger | hPanel, Hosting, Email, Domains | 🚧 Planned |
+| Hetzner | Cloud & Dedicated Infrastructure | 🚧 Planned |
+| OVHcloud | Cloud and Dedicated Infrastructure | 🚧 Planned |
+| Vultr | Cloud Compute Platform | 🚧 Planned |
+| DigitalOcean | Cloud Infrastructure | 🚧 Planned |
+| Linode (Akamai) | Cloud Infrastructure | 🚧 Planned |
+| Scaleway | European Cloud Platform | 🚧 Planned |
 
-- MySQL
-- MariaDB
-- PostgreSQL
-- Redis
-- MongoDB
+---
 
-### Containers & Orchestration
+# Cloud & Infrastructure
 
-- Docker
-- Kubernetes
-- Docker Swarm
-- Podman
+| Platform | Description | Status |
+|----------|-------------|:------:|
+| Cloudflare | DNS, CDN, WAF, Zero Trust | 🚧 Planned |
+| Amazon Web Services | Cloud Infrastructure | 🚧 Planned |
+| Microsoft Azure | Cloud Platform | 🚧 Planned |
+| Google Cloud Platform | Cloud Platform | 🚧 Planned |
 
-### Monitoring
+---
 
-- Uptime Kuma
-- Netdata
-- Prometheus
-- Grafana
-- Zabbix
+# Control Panels
 
-### Backup
+| Platform | Description | Status |
+|----------|-------------|:------:|
+| cPanel / WHM | Linux Hosting Control Panel | 🚧 Planned |
+| Plesk | Hosting Automation Platform | 🚧 Planned |
+| DirectAdmin | Web Hosting Control Panel | 🚧 Planned |
+| CyberPanel | OpenLiteSpeed Control Panel | 🚧 Planned |
+| ISPConfig | Open Source Hosting Panel | 🚧 Planned |
 
-- JetBackup
-- Rclone
-- BorgBackup
-- Restic
+---
 
-### Billing & Automation
+# Virtualization
 
-- WHMCS
-- Blesta
-- ClientExec
+| Platform | Description | Status |
+|----------|-------------|:------:|
+| Proxmox VE | Virtualization Platform | 🚧 Planned |
+| Virtualizor | VPS Management Platform | 🚧 Planned |
+| SolusVM | VPS Control Panel | 🚧 Planned |
+| VMware | Enterprise Virtualization | 🚧 Planned |
+| Hyper-V | Microsoft Hypervisor | 🚧 Planned |
 
-### Security
+---
 
-- Imunify360
-- CSF Firewall
-- Fail2Ban
-- ModSecurity
-- CrowdSec
+# DNS
+
+| Platform | Description | Status |
+|----------|-------------|:------:|
+| Cloudflare DNS | Managed DNS | 🚧 Planned |
+| PowerDNS | Open Source DNS | 🚧 Planned |
+| BIND | DNS Server | 🚧 Planned |
+| Amazon Route53 | Managed DNS | 🚧 Planned |
+
+---
+
+# Web Servers
+
+| Platform | Description | Status |
+|----------|-------------|:------:|
+| LiteSpeed Enterprise | Commercial Web Server | 🚧 Planned |
+| OpenLiteSpeed | Open Source Web Server | 🚧 Planned |
+| Apache HTTP Server | Web Server | 🚧 Planned |
+| Nginx | Reverse Proxy & Web Server | 🚧 Planned |
+
+---
+
+# Databases
+
+| Platform | Description | Status |
+|----------|-------------|:------:|
+| MySQL | Relational Database | 🚧 Planned |
+| MariaDB | Open Source Database | 🚧 Planned |
+| PostgreSQL | Advanced SQL Database | 🚧 Planned |
+| Redis | In-memory Database | 🚧 Planned |
+| MongoDB | NoSQL Database | 🚧 Planned |
+
+---
+
+# Containers
+
+| Platform | Description | Status |
+|----------|-------------|:------:|
+| Docker | Container Runtime | 🚧 Planned |
+| Kubernetes | Container Orchestration | 🚧 Planned |
+| Docker Swarm | Container Clustering | 🚧 Planned |
+| Podman | Daemonless Containers | 🚧 Planned |
+
+---
+
+# Monitoring
+
+| Platform | Description | Status |
+|----------|-------------|:------:|
+| Netdata | Real-time Monitoring | 🚧 Planned |
+| Grafana | Dashboards & Visualization | 🚧 Planned |
+| Prometheus | Metrics Collection | 🚧 Planned |
+| Uptime Kuma | Uptime Monitoring | 🚧 Planned |
+| Zabbix | Infrastructure Monitoring | 🚧 Planned |
+
+---
+
+# Backup
+
+| Platform | Description | Status |
+|----------|-------------|:------:|
+| JetBackup | cPanel Backup Solution | 🚧 Planned |
+| BorgBackup | Deduplicating Backup | 🚧 Planned |
+| Restic | Secure Backup Utility | 🚧 Planned |
+| Rclone | Cloud Storage Synchronization | 🚧 Planned |
+
+---
+
+# Billing & Automation
+
+| Platform | Description | Status |
+|----------|-------------|:------:|
+| WHMCS | Billing & Provisioning | 🚧 Planned |
+| Blesta | Hosting Billing Platform | 🚧 Planned |
+| ClientExec | Hosting Automation | 🚧 Planned |
+
+---
+
+# Security
+
+| Platform | Description | Status |
+|----------|-------------|:------:|
+| Imunify360 | Server Security Suite | 🚧 Planned |
+| ConfigServer Firewall (CSF) | Linux Firewall | 🚧 Planned |
+| Fail2Ban | Intrusion Prevention | 🚧 Planned |
+| ModSecurity | Web Application Firewall | 🚧 Planned |
+| CrowdSec | Collaborative Security | 🚧 Planned |
+
+---
+
+# Development
+
+Recommended languages for developing MCP servers:
+
+- TypeScript
+- Python
+- Go
+- Rust
+- C#
+
+Popular MCP SDKs:
+
+- Official MCP SDK
+- FastMCP
+- MCP Python SDK
+
+---
+
+# Resources
+
+## Official
+
+- Model Context Protocol Specification
+- Official Documentation
+- Official SDKs
+
+## Community
+
+- Example MCP Servers
+- MCP Tutorials
+- MCP Best Practices
+- AI Integration Examples
+
+---
+
+# Roadmap
+
+## Phase 1
+
+- [ ] InterServer MCP
+- [ ] Cloudflare MCP
+- [ ] cPanel MCP
+- [ ] WHMCS MCP
+
+## Phase 2
+
+- [ ] Plesk MCP
+- [ ] Proxmox MCP
+- [ ] LiteSpeed MCP
+- [ ] Docker MCP
+
+## Phase 3
+
+- [ ] Monitoring MCP Servers
+- [ ] Security MCP Servers
+- [ ] Database MCP Servers
+- [ ] Community Contributions
 
 ---
 
@@ -109,45 +265,19 @@ Whether you're managing VPSs, dedicated servers, DNS, web hosting accounts, or c
 
 ```
 providers/
-infrastructure/
+cloud/
 control-panels/
 virtualization/
+dns/
+web-servers/
+databases/
+containers/
 monitoring/
-automation/
+backup/
+billing/
 security/
 docs/
-```
-
----
-
-# MCP Server Information
-
-Each MCP server should include:
-
-- Description
-- Supported Features
-- Authentication Method
-- Installation Guide
-- Configuration
-- Supported MCP Clients
-- API Documentation
-- Example Prompts
-- License
-
----
-
-# Example Directory
-
-```
-providers/
-└── interserver/
-    ├── README.md
-    ├── spec.md
-    ├── examples/
-    └── screenshots/
-
-control-panels/
-└── cpanel/
+examples/
 ```
 
 ---
@@ -160,35 +290,40 @@ You can contribute by:
 
 - Adding new MCP servers
 - Improving documentation
-- Reporting broken implementations
-- Updating supported features
+- Reporting broken links
 - Adding installation guides
-- Sharing real-world examples
+- Creating tutorials
+- Improving examples
+- Updating implementation status
 
-Please submit a Pull Request.
+Please open an Issue or submit a Pull Request.
 
 ---
 
-# Goals
+# Status Legend
 
-- Build the largest collection of hosting-related MCP servers.
-- Standardize documentation.
-- Help hosting providers adopt MCP.
-- Make infrastructure automation easier with AI.
+| Status | Meaning |
+|---------|---------|
+| ✅ | Available |
+| 🚧 | Planned |
+| 🧪 | Experimental |
+| ❌ | Discontinued |
 
 ---
 
 # License
 
-MIT License
+This repository is licensed under the **MIT License**.
 
 ---
 
 ## ⭐ Support the Project
 
-If you find this project useful, please consider:
+If you find this repository useful, please consider:
 
 - ⭐ Starring the repository
-- 🍴 Forking the project
+- 🍴 Forking the repository
 - 🛠️ Contributing new MCP servers
-- 📢 Sharing the project with the community
+- 📢 Sharing it with the hosting and AI communities
+
+Together, we can build the largest open collection of MCP servers for the hosting and infrastructure ecosystem.
