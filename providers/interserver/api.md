@@ -1,6 +1,14 @@
 # InterServer MCP API
 
 > API reference and MCP mapping based on the official InterServer Management API.
+>  **Note**
+>
+> This document maps the official InterServer Management API to proposed MCP tools.
+>
+> The REST endpoints, HTTP methods, request parameters, and authentication described here are based on the official InterServer OpenAPI documentation.
+>
+> The MCP tool names (for example `list_vps`, `restart_vps`, `create_dns_record`) and implementation recommendations are part of this community project and are **not** official InterServer API names. They are designed to provide a consistent MCP interface for AI assistants :contentReference[oaicite:0]{index=0}
+
 
 **API Version:** `0.9.0`  
 **OpenAPI Version:** `3.0.3`
