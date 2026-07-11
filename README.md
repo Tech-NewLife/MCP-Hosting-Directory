@@ -1,9 +1,9 @@
-# Awesome Hosting MCP
+# MCP Hosting Directory
 
 > A curated collection of **Model Context Protocol (MCP)** servers, SDKs, tools, and resources for hosting providers, cloud platforms, control panels, virtualization, networking, monitoring, security, and automation.
 
-![GitHub stars](https://img.shields.io/github/stars/Tech-NewLife/awesome-hosting-mcp?style=flat-square)
-![GitHub license](https://img.shields.io/github/license/Tech-NewLife/awesome-hosting-mcp?style=flat-square&cacheSeconds=60)
+![GitHub stars](https://img.shields.io/github/stars/Tech-NewLife/mcp-hosting-directory?style=flat-square)
+![GitHub license](https://img.shields.io/github/license/Tech-NewLife/mcp-hosting-directory?style=flat-square&cacheSeconds=60)
 ![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square)
 
 ---
