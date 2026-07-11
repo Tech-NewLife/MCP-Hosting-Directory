@@ -1,419 +1,398 @@
 # InterServer MCP
 
-> An MCP (Model Context Protocol) server specification for integrating AI assistants with InterServer hosting services.
+> An MCP (Model Context Protocol) server specification for integrating
+> AI assistants with InterServer hosting services and the InterServer
+> Cloud Marketplace.
 
 **Status:** 🚧 Planned
 
----
+------------------------------------------------------------------------
 
 # Overview
 
-InterServer MCP aims to provide a secure interface between AI assistants and the InterServer platform, allowing users to manage hosting services using natural language.
+InterServer MCP aims to provide a secure interface between AI assistants
+and the InterServer platform, allowing users to manage hosting services,
+cloud resources, and Marketplace applications using natural language.
 
-Instead of manually navigating the control panel, users can simply ask an AI assistant to perform common hosting tasks such as restarting a VPS, checking invoices, managing DNS records, or opening support tickets.
+Instead of manually navigating the control panel, users can simply ask
+an AI assistant to perform common hosting tasks such as restarting a
+VPS, managing DNS records, checking invoices, deploying Marketplace
+applications, or opening support tickets.
 
----
+------------------------------------------------------------------------
 
 # Why InterServer MCP?
 
-InterServer offers a wide range of hosting services including:
+InterServer provides a broad range of hosting and infrastructure
+services that are well suited for AI-driven automation, including:
 
-- VPS
-- Windows VPS
-- Linux VPS
-- Dedicated Servers
-- Shared Hosting
-- Domains
-- Email Hosting
-- DNS Management
-- Support
-- Billing
+-   Linux VPS
+-   Windows VPS
+-   Dedicated Servers
+-   Shared Hosting
+-   Domains
+-   DNS Management
+-   Email Hosting
+-   Billing
+-   Technical Support
+-   Cloud Marketplace Applications
 
-An MCP server makes these services accessible through AI assistants while maintaining secure authentication and permission controls.
+One of InterServer's standout features is the **Cloud Marketplace**,
+which allows users to deploy popular applications with minimal setup. An
+MCP server can extend this capability by allowing AI assistants to
+deploy and manage Marketplace applications through natural language.
 
----
+------------------------------------------------------------------------
 
 # Goals
 
 The InterServer MCP project aims to:
 
-- Simplify server management
-- Reduce repetitive administrative tasks
-- Provide AI-powered infrastructure management
-- Standardize hosting automation
-- Demonstrate how hosting providers can adopt MCP
+-   Simplify hosting and infrastructure management
+-   Automate repetitive administrative tasks
+-   Provide AI-powered server operations
+-   Standardize hosting automation using MCP
+-   Demonstrate practical MCP integrations for hosting providers
 
----
+------------------------------------------------------------------------
 
 # Planned Features
 
-## VPS Management
+# InterServer Cloud Marketplace
 
-### Information
+## Application Discovery
 
-- List VPS
-- VPS Details
-- Resource Usage
-- Operating System
-- Assigned IP Addresses
-- Hostname
-- Bandwidth Usage
+-   List Marketplace Applications
+-   Search Applications
+-   View Application Details
+-   Browse by Category
 
-### Power Operations
+### Example Marketplace Applications
 
-- Restart VPS
-- Shutdown VPS
-- Power On VPS
-- Force Reboot
+#### Content Management
 
-### Administration
+-   Nextcloud
+-   MediaWiki
+-   MicroWeber Website Builder
 
-- Reset Root Password
-- Change Hostname
-- Reinstall Operating System
-- View Console Information
+#### Development
 
----
+-   Node.js
+-   MongoDB Community Edition
+
+#### Networking & Infrastructure
+
+-   NetBird Server
+-   MooseFS
+-   NirvaShare
+-   Octelium
+
+#### Game Servers
+
+-   Minecraft (Vanilla)
+-   Minecraft (Forge)
+-   Minecraft (PaperSpigot)
+
+### Deployment
+
+-   Deploy Application
+-   Restart Application
+-   Stop Application
+-   Remove Deployment
+-   View Deployment Status
+-   View Deployment Logs
+-   View Resource Usage
+
+------------------------------------------------------------------------
+
+# VPS Management
+
+## Information
+
+-   List VPS
+-   VPS Details
+-   Resource Usage
+-   Operating System
+-   Assigned IP Addresses
+-   Hostname
+-   Bandwidth Usage
+
+## Power Operations
+
+-   Restart VPS
+-   Shutdown VPS
+-   Power On VPS
+-   Force Reboot
+
+## Administration
+
+-   Reset Root Password
+-   Change Hostname
+-   Reinstall Operating System
+-   View Console Information
+
+------------------------------------------------------------------------
 
 # Dedicated Servers
 
-### Information
+## Information
 
-- List Servers
-- Hardware Specifications
-- Public IP Addresses
-- Bandwidth Usage
+-   List Servers
+-   Hardware Specifications
+-   Public IP Addresses
+-   Bandwidth Usage
 
-### Power
+## Power
 
-- Reboot Server
-- Power Cycle
-- Shutdown
+-   Reboot Server
+-   Power Cycle
+-   Shutdown
 
----
+------------------------------------------------------------------------
 
 # Shared Hosting
 
-### Account
+## Account
 
-- List Hosting Accounts
-- Disk Usage
-- Bandwidth Usage
-- PHP Version
-- SSL Status
+-   List Hosting Accounts
+-   Disk Usage
+-   Bandwidth Usage
+-   PHP Version
+-   SSL Status
 
-### Management
+## Management
 
-- Suspend Account
-- Unsuspend Account
-- Reset Password
-- View Account Information
+-   Suspend Account
+-   Unsuspend Account
+-   Reset Password
+-   View Account Information
 
----
+------------------------------------------------------------------------
 
 # Domain Management
 
-Supported operations include:
+-   List Domains
+-   Register Domain
+-   Renew Domain
+-   Transfer Domain
+-   Domain Lock
+-   WHOIS Information
+-   Expiry Date
 
-- List Domains
-- Register Domain
-- Renew Domain
-- Transfer Domain
-- Domain Lock
-- WHOIS Information
-- Expiry Date
-
----
+------------------------------------------------------------------------
 
 # DNS Management
 
-Supported record types:
+Supported Record Types:
 
-- A
-- AAAA
-- CNAME
-- MX
-- TXT
-- CAA
-- SRV
-- PTR
+-   A
+-   AAAA
+-   CNAME
+-   MX
+-   TXT
+-   CAA
+-   SRV
+-   PTR
 
-Supported actions:
+Supported Actions:
 
-- List Records
-- Create Record
-- Edit Record
-- Delete Record
+-   List Records
+-   Create Record
+-   Edit Record
+-   Delete Record
 
----
+------------------------------------------------------------------------
 
 # Billing
 
-Features planned:
+-   List Services
+-   List Invoices
+-   Outstanding Balance
+-   Payment History
+-   Renew Services
+-   Upgrade Services
 
-- List Services
-- List Invoices
-- Outstanding Balance
-- Payment History
-- Renew Services
-- Upgrade Services
-
----
+------------------------------------------------------------------------
 
 # Support
 
-Supported features:
+-   Create Ticket
+-   View Tickets
+-   Reply to Ticket
+-   Close Ticket
+-   Search Knowledgebase
 
-- Create Ticket
-- View Tickets
-- Reply to Ticket
-- Close Ticket
-- Search Knowledgebase
-
----
+------------------------------------------------------------------------
 
 # Email
 
-Planned features:
+-   List Mailboxes
+-   Create Mailbox
+-   Delete Mailbox
+-   Reset Password
+-   Manage Forwarders
 
-- List Mailboxes
-- Reset Password
-- Create Mailbox
-- Delete Mailbox
-- Forwarders
-
----
+------------------------------------------------------------------------
 
 # Authentication
 
-InterServer MCP should support secure authentication using one or more of the following methods:
+Supported methods:
 
-- API Key
-- OAuth (if available)
-- Access Tokens
-- Session Authentication
+-   API Keys
+-   OAuth (if available)
+-   Access Tokens
+-   Session Authentication
 
 No credentials should ever be stored in prompts.
 
----
+------------------------------------------------------------------------
 
 # Security
 
-The MCP server should:
+-   Require authentication
+-   Use HTTPS
+-   Respect account permissions
+-   Log administrative actions
+-   Support read-only and administrative modes
+-   Never expose sensitive credentials
 
-- Require authentication before executing actions.
-- Use HTTPS for all API communication.
-- Respect account permissions.
-- Log administrative actions.
-- Never expose sensitive credentials.
-- Support read-only and administrative modes.
-
----
+------------------------------------------------------------------------
 
 # Example Prompts
 
+## Marketplace
+
+    Show Marketplace applications.
+
+    Deploy Nextcloud.
+
+    Deploy MongoDB Community Edition.
+
+    Restart my Marketplace deployment.
+
 ## VPS
 
-```
-Restart my VPS.
-```
+    Restart my VPS.
 
-```
-Show my VPS list.
-```
-
-```
-How much bandwidth has my VPS used this month?
-```
-
-```
-Reset the root password for my VPS.
-```
-
-```
-Reinstall Ubuntu 24.04 on my VPS.
-```
-
----
-
-## Dedicated Server
-
-```
-Reboot my dedicated server.
-```
-
-```
-Show hardware information.
-```
-
-```
-Display server bandwidth usage.
-```
-
----
-
-## Domains
-
-```
-List my domains.
-```
-
-```
-Renew example.com.
-```
-
-```
-Show domains expiring this month.
-```
-
----
+    Show my VPS list.
 
 ## DNS
 
-```
-Create an A record.
-```
+    Show DNS records for example.com.
 
-```
-Delete TXT record.
-```
-
-```
-Update MX records.
-```
-
-```
-Show DNS records for example.com.
-```
-
----
+    Create an A record.
 
 ## Billing
 
-```
-Show unpaid invoices.
-```
-
-```
-List active services.
-```
-
-```
-Renew my VPS.
-```
-
----
+    Show unpaid invoices.
 
 ## Support
 
-```
-Create a support ticket.
-```
+    Create a support ticket.
 
-```
-Show open tickets.
-```
-
-```
-Reply to ticket #12345.
-```
-
----
+------------------------------------------------------------------------
 
 # Example Workflow
 
-```
-User
+    User
 
-↓
+    ↓
 
-Restart my VPS
+    Deploy Nextcloud
 
-↓
+    ↓
 
-MCP Client
+    MCP Client
 
-↓
+    ↓
 
-InterServer MCP
+    InterServer MCP
 
-↓
+    ↓
 
-Authenticate
+    Authenticate
 
-↓
+    ↓
 
-InterServer API
+    InterServer API
 
-↓
+    ↓
 
-Restart VPS
+    Marketplace
 
-↓
+    ↓
 
-Success Response
+    Deploy Application
 
-↓
+    ↓
 
-AI Assistant
+    Success Response
 
-↓
+    ↓
 
-Your VPS has been restarted successfully.
-```
+    AI Assistant
 
----
+    ↓
+
+    Nextcloud has been deployed successfully.
+
+------------------------------------------------------------------------
 
 # Proposed MCP Tools
 
+## Marketplace
+
+  Tool                     Description
+  ------------------------ -------------------------------
+  list_marketplace_apps    List Marketplace applications
+  deploy_marketplace_app   Deploy application
+  list_deployments         List deployments
+  restart_application      Restart deployment
+  remove_application       Delete deployment
+  application_logs         View logs
+
 ## VPS
 
-| Tool | Description |
-|------|-------------|
-| list_vps | List all VPS |
-| get_vps | Show VPS details |
-| restart_vps | Restart VPS |
-| shutdown_vps | Shutdown VPS |
-| poweron_vps | Start VPS |
-| reinstall_vps | Reinstall OS |
-| reset_password | Reset root password |
-
----
+  Tool             Description
+  ---------------- ----------------
+  list_vps         List VPS
+  get_vps          VPS details
+  restart_vps      Restart VPS
+  shutdown_vps     Shutdown VPS
+  poweron_vps      Power on VPS
+  reinstall_vps    Reinstall OS
+  reset_password   Reset password
 
 ## DNS
 
-| Tool | Description |
-|------|-------------|
-| list_dns | List DNS records |
-| add_dns_record | Create record |
-| update_dns_record | Update record |
-| delete_dns_record | Delete record |
-
----
+  Tool                Description
+  ------------------- ------------------
+  list_dns            List DNS records
+  add_dns_record      Create record
+  update_dns_record   Update record
+  delete_dns_record   Delete record
 
 ## Billing
 
-| Tool | Description |
-|------|-------------|
-| list_services | List services |
-| list_invoices | List invoices |
-| renew_service | Renew hosting |
-
----
+  Tool            Description
+  --------------- ---------------
+  list_services   List services
+  list_invoices   List invoices
+  renew_service   Renew service
 
 ## Support
 
-| Tool | Description |
-|------|-------------|
-| list_tickets | View tickets |
-| create_ticket | Create ticket |
-| reply_ticket | Reply to ticket |
+  Tool            Description
+  --------------- -----------------
+  list_tickets    View tickets
+  create_ticket   Create ticket
+  reply_ticket    Reply to ticket
 
----
+------------------------------------------------------------------------
 
 # Suggested Directory Structure
 
-```
+``` text
 providers/interserver/
 
 README.md
@@ -424,36 +403,37 @@ examples.md
 roadmap.md
 ```
 
----
+------------------------------------------------------------------------
 
 # Development Roadmap
 
 ## Phase 1
 
-- Research available APIs
-- Define MCP tool schema
-- Authentication model
-- Documentation
+-   Research APIs
+-   Define MCP tools
+-   Authentication model
+-   Documentation
 
 ## Phase 2
 
-- VPS Management
-- Billing
-- Support
+-   Marketplace
+-   VPS
+-   Billing
+-   Support
 
 ## Phase 3
 
-- DNS Management
-- Domains
-- Shared Hosting
+-   DNS
+-   Domains
+-   Shared Hosting
 
 ## Phase 4
 
-- Dedicated Servers
-- Email Management
-- Advanced Automation
+-   Dedicated Servers
+-   Email Management
+-   Advanced Automation
 
----
+------------------------------------------------------------------------
 
 # Contributing
 
@@ -461,18 +441,21 @@ Contributions are welcome.
 
 You can help by:
 
-- Improving documentation
-- Adding supported API endpoints
-- Creating MCP tool definitions
-- Writing installation guides
-- Sharing example prompts
+-   Improving documentation
+-   Adding API endpoints
+-   Creating MCP tool definitions
+-   Writing installation guides
+-   Sharing prompt examples
 
-Please submit a Pull Request or open an Issue.
+Please open an Issue or submit a Pull Request.
 
----
+------------------------------------------------------------------------
 
 # Disclaimer
 
-This project is an independent community effort intended to explore MCP integrations for hosting platforms.
+This project is an independent community effort intended to explore MCP
+integrations for hosting platforms.
 
-InterServer is a trademark of its respective owner. This project is not affiliated with, endorsed by, or maintained by InterServer unless explicitly stated.
+InterServer is a trademark of its respective owner. This project is not
+affiliated with, endorsed by, or maintained by InterServer unless
+explicitly stated.
