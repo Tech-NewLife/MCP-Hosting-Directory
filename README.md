@@ -1,461 +1,331 @@
-# InterServer MCP
+# MCP Hosting Directory
 
-> An MCP (Model Context Protocol) server specification for integrating
-> AI assistants with InterServer hosting services and the InterServer
-> Cloud Marketplace.
+> A curated collection of **Model Context Protocol (MCP)** servers, SDKs, tools, and resources for hosting providers, cloud platforms, control panels, virtualization, networking, monitoring, security, and automation.
 
-**Status:** 🚧 Planned
+![GitHub stars](https://img.shields.io/github/stars/Tech-NewLife/mcp-hosting-directory?style=flat-square)
+![GitHub license](https://img.shields.io/github/license/Tech-NewLife/mcp-hosting-directory?style=flat-square&cacheSeconds=60)
+![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square)
 
-------------------------------------------------------------------------
+---
+
+## What is MCP?
 
-# Overview
+**Model Context Protocol (MCP)** is an open protocol that allows AI assistants to securely connect to external applications, APIs, databases, infrastructure platforms, and services through MCP servers.
 
-InterServer MCP aims to provide a secure interface between AI assistants
-and the InterServer platform, allowing users to manage hosting services,
-cloud resources, and Marketplace applications using natural language.
+Instead of building separate integrations for every AI application, developers can expose functionality through an MCP server, allowing compatible AI assistants to discover and use tools in a standardized way.
 
-Instead of manually navigating the control panel, users can simply ask
-an AI assistant to perform common hosting tasks such as restarting a
-VPS, managing DNS records, checking invoices, deploying Marketplace
-applications, or opening support tickets.
+This repository focuses specifically on the **hosting and infrastructure ecosystem**.
 
-------------------------------------------------------------------------
+---
 
-# Why InterServer MCP?
+# Why Awesome Hosting MCP?
+
+Hosting platforms are made up of many different technologies:
 
-InterServer provides a broad range of hosting and infrastructure
-services that are well suited for AI-driven automation, including:
+- Hosting Providers
+- Cloud Platforms
+- Control Panels
+- DNS Providers
+- Virtualization Platforms
+- Web Servers
+- Databases
+- Monitoring Solutions
+- Security Tools
+- Billing Systems
 
--   Linux VPS
--   Windows VPS
--   Dedicated Servers
--   Shared Hosting
--   Domains
--   DNS Management
--   Email Hosting
--   Billing
--   Technical Support
--   Cloud Marketplace Applications
+As MCP adoption grows, implementations are becoming scattered across different repositories and organizations.
 
-One of InterServer's standout features is the **Cloud Marketplace**,
-which allows users to deploy popular applications with minimal setup. An
-MCP server can extend this capability by allowing AI assistants to
-deploy and manage Marketplace applications through natural language.
+The goal of this project is to provide **one centralized place** to discover, compare, and contribute hosting-related MCP servers.
 
-------------------------------------------------------------------------
+---
 
-# Goals
+# Contents
 
-The InterServer MCP project aims to:
+- [Hosting Providers](#hosting-providers)
+- [Cloud & Infrastructure](#cloud--infrastructure)
+- [Control Panels](#control-panels)
+- [Virtualization](#virtualization)
+- [DNS](#dns)
+- [Web Servers](#web-servers)
+- [Databases](#databases)
+- [Containers](#containers)
+- [Monitoring](#monitoring)
+- [Backup](#backup)
+- [Billing & Automation](#billing--automation)
+- [Security](#security)
+- [Development](#development)
+- [Resources](#resources)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+---
 
--   Simplify hosting and infrastructure management
--   Automate repetitive administrative tasks
--   Provide AI-powered server operations
--   Standardize hosting automation using MCP
--   Demonstrate practical MCP integrations for hosting providers
+# Hosting Providers
 
-------------------------------------------------------------------------
+| Provider | Description | Status |
+|-----------|-------------|:------:|
+| [InterServer](https://www.interserver.net/) | VPS, Dedicated Servers, Shared Hosting, DNS, Billing | 🚧 Planned |
+| Contabo | VPS and Dedicated Server Management | 🚧 Planned |
+| Hostinger | hPanel, Hosting, Email, Domains | 🚧 Planned |
+| Hetzner | Cloud & Dedicated Infrastructure | 🚧 Planned |
+| OVHcloud | Cloud and Dedicated Infrastructure | 🚧 Planned |
+| Vultr | Cloud Compute Platform | 🚧 Planned |
+| DigitalOcean | Cloud Infrastructure | 🚧 Planned |
+| Linode (Akamai) | Cloud Infrastructure | 🚧 Planned |
+| Scaleway | European Cloud Platform | 🚧 Planned |
 
-# Planned Features
+---
 
-# InterServer Cloud Marketplace
+# Cloud & Infrastructure
 
-## Application Discovery
+| Platform | Description | Status |
+|----------|-------------|:------:|
+| Cloudflare | DNS, CDN, WAF, Zero Trust | 🚧 Planned |
+| Amazon Web Services | Cloud Infrastructure | 🚧 Planned |
+| Microsoft Azure | Cloud Platform | 🚧 Planned |
+| Google Cloud Platform | Cloud Platform | 🚧 Planned |
 
--   List Marketplace Applications
--   Search Applications
--   View Application Details
--   Browse by Category
+---
 
-### Example Marketplace Applications
+# Control Panels
 
-#### Content Management
+| Platform | Description | Status |
+|----------|-------------|:------:|
+| cPanel / WHM | Linux Hosting Control Panel | 🚧 Planned |
+| Plesk | Hosting Automation Platform | 🚧 Planned |
+| DirectAdmin | Web Hosting Control Panel | 🚧 Planned |
+| CyberPanel | OpenLiteSpeed Control Panel | 🚧 Planned |
+| ISPConfig | Open Source Hosting Panel | 🚧 Planned |
 
--   Nextcloud
--   MediaWiki
--   MicroWeber Website Builder
+---
 
-#### Development
+# Virtualization
 
--   Node.js
--   MongoDB Community Edition
+| Platform | Description | Status |
+|----------|-------------|:------:|
+| Proxmox VE | Virtualization Platform | 🚧 Planned |
+| Virtualizor | VPS Management Platform | 🚧 Planned |
+| SolusVM | VPS Control Panel | 🚧 Planned |
+| VMware | Enterprise Virtualization | 🚧 Planned |
+| Hyper-V | Microsoft Hypervisor | 🚧 Planned |
 
-#### Networking & Infrastructure
+---
 
--   NetBird Server
--   MooseFS
--   NirvaShare
--   Octelium
+# DNS
 
-#### Game Servers
+| Platform | Description | Status |
+|----------|-------------|:------:|
+| Cloudflare DNS | Managed DNS | 🚧 Planned |
+| PowerDNS | Open Source DNS | 🚧 Planned |
+| BIND | DNS Server | 🚧 Planned |
+| Amazon Route53 | Managed DNS | 🚧 Planned |
 
--   Minecraft (Vanilla)
--   Minecraft (Forge)
--   Minecraft (PaperSpigot)
+---
 
-### Deployment
+# Web Servers
 
--   Deploy Application
--   Restart Application
--   Stop Application
--   Remove Deployment
--   View Deployment Status
--   View Deployment Logs
--   View Resource Usage
+| Platform | Description | Status |
+|----------|-------------|:------:|
+| LiteSpeed Enterprise | Commercial Web Server | 🚧 Planned |
+| OpenLiteSpeed | Open Source Web Server | 🚧 Planned |
+| Apache HTTP Server | Web Server | 🚧 Planned |
+| Nginx | Reverse Proxy & Web Server | 🚧 Planned |
 
-------------------------------------------------------------------------
+---
 
-# VPS Management
+# Databases
 
-## Information
+| Platform | Description | Status |
+|----------|-------------|:------:|
+| MySQL | Relational Database | 🚧 Planned |
+| MariaDB | Open Source Database | 🚧 Planned |
+| PostgreSQL | Advanced SQL Database | 🚧 Planned |
+| Redis | In-memory Database | 🚧 Planned |
+| MongoDB | NoSQL Database | 🚧 Planned |
 
--   List VPS
--   VPS Details
--   Resource Usage
--   Operating System
--   Assigned IP Addresses
--   Hostname
--   Bandwidth Usage
+---
 
-## Power Operations
+# Containers
 
--   Restart VPS
--   Shutdown VPS
--   Power On VPS
--   Force Reboot
+| Platform | Description | Status |
+|----------|-------------|:------:|
+| Docker | Container Runtime | 🚧 Planned |
+| Kubernetes | Container Orchestration | 🚧 Planned |
+| Docker Swarm | Container Clustering | 🚧 Planned |
+| Podman | Daemonless Containers | 🚧 Planned |
 
-## Administration
+---
 
--   Reset Root Password
--   Change Hostname
--   Reinstall Operating System
--   View Console Information
+# Monitoring
 
-------------------------------------------------------------------------
+| Platform | Description | Status |
+|----------|-------------|:------:|
+| Netdata | Real-time Monitoring | 🚧 Planned |
+| Grafana | Dashboards & Visualization | 🚧 Planned |
+| Prometheus | Metrics Collection | 🚧 Planned |
+| Uptime Kuma | Uptime Monitoring | 🚧 Planned |
+| Zabbix | Infrastructure Monitoring | 🚧 Planned |
 
-# Dedicated Servers
+---
 
-## Information
+# Backup
 
--   List Servers
--   Hardware Specifications
--   Public IP Addresses
--   Bandwidth Usage
+| Platform | Description | Status |
+|----------|-------------|:------:|
+| JetBackup | cPanel Backup Solution | 🚧 Planned |
+| BorgBackup | Deduplicating Backup | 🚧 Planned |
+| Restic | Secure Backup Utility | 🚧 Planned |
+| Rclone | Cloud Storage Synchronization | 🚧 Planned |
 
-## Power
+---
 
--   Reboot Server
--   Power Cycle
--   Shutdown
+# Billing & Automation
 
-------------------------------------------------------------------------
+| Platform | Description | Status |
+|----------|-------------|:------:|
+| WHMCS | Billing & Provisioning | 🚧 Planned |
+| Blesta | Hosting Billing Platform | 🚧 Planned |
+| ClientExec | Hosting Automation | 🚧 Planned |
 
-# Shared Hosting
-
-## Account
-
--   List Hosting Accounts
--   Disk Usage
--   Bandwidth Usage
--   PHP Version
--   SSL Status
-
-## Management
-
--   Suspend Account
--   Unsuspend Account
--   Reset Password
--   View Account Information
-
-------------------------------------------------------------------------
-
-# Domain Management
-
--   List Domains
--   Register Domain
--   Renew Domain
--   Transfer Domain
--   Domain Lock
--   WHOIS Information
--   Expiry Date
-
-------------------------------------------------------------------------
-
-# DNS Management
-
-Supported Record Types:
-
--   A
--   AAAA
--   CNAME
--   MX
--   TXT
--   CAA
--   SRV
--   PTR
-
-Supported Actions:
-
--   List Records
--   Create Record
--   Edit Record
--   Delete Record
-
-------------------------------------------------------------------------
-
-# Billing
-
--   List Services
--   List Invoices
--   Outstanding Balance
--   Payment History
--   Renew Services
--   Upgrade Services
-
-------------------------------------------------------------------------
-
-# Support
-
--   Create Ticket
--   View Tickets
--   Reply to Ticket
--   Close Ticket
--   Search Knowledgebase
-
-------------------------------------------------------------------------
-
-# Email
-
--   List Mailboxes
--   Create Mailbox
--   Delete Mailbox
--   Reset Password
--   Manage Forwarders
-
-------------------------------------------------------------------------
-
-# Authentication
-
-Supported methods:
-
--   API Keys
--   OAuth (if available)
--   Access Tokens
--   Session Authentication
-
-No credentials should ever be stored in prompts.
-
-------------------------------------------------------------------------
+---
 
 # Security
 
--   Require authentication
--   Use HTTPS
--   Respect account permissions
--   Log administrative actions
--   Support read-only and administrative modes
--   Never expose sensitive credentials
+| Platform | Description | Status |
+|----------|-------------|:------:|
+| Imunify360 | Server Security Suite | 🚧 Planned |
+| ConfigServer Firewall (CSF) | Linux Firewall | 🚧 Planned |
+| Fail2Ban | Intrusion Prevention | 🚧 Planned |
+| ModSecurity | Web Application Firewall | 🚧 Planned |
+| CrowdSec | Collaborative Security | 🚧 Planned |
 
-------------------------------------------------------------------------
+---
 
-# Example Prompts
+# Development
 
-## Marketplace
+Recommended languages for developing MCP servers:
 
-    Show Marketplace applications.
+- TypeScript
+- Python
+- Go
+- Rust
+- C#
 
-    Deploy Nextcloud.
+Popular MCP SDKs:
 
-    Deploy MongoDB Community Edition.
+- Official MCP SDK
+- FastMCP
+- MCP Python SDK
 
-    Restart my Marketplace deployment.
+---
 
-## VPS
+# Resources
 
-    Restart my VPS.
+## Official
 
-    Show my VPS list.
+- Model Context Protocol Specification
+- Official Documentation
+- Official SDKs
 
-## DNS
+## Community
 
-    Show DNS records for example.com.
+- Example MCP Servers
+- MCP Tutorials
+- MCP Best Practices
+- AI Integration Examples
 
-    Create an A record.
+---
 
-## Billing
-
-    Show unpaid invoices.
-
-## Support
-
-    Create a support ticket.
-
-------------------------------------------------------------------------
-
-# Example Workflow
-
-    User
-
-    ↓
-
-    Deploy Nextcloud
-
-    ↓
-
-    MCP Client
-
-    ↓
-
-    InterServer MCP
-
-    ↓
-
-    Authenticate
-
-    ↓
-
-    InterServer API
-
-    ↓
-
-    Marketplace
-
-    ↓
-
-    Deploy Application
-
-    ↓
-
-    Success Response
-
-    ↓
-
-    AI Assistant
-
-    ↓
-
-    Nextcloud has been deployed successfully.
-
-------------------------------------------------------------------------
-
-# Proposed MCP Tools
-
-## Marketplace
-
-  Tool                     Description
-  ------------------------ -------------------------------
-  list_marketplace_apps    List Marketplace applications
-  deploy_marketplace_app   Deploy application
-  list_deployments         List deployments
-  restart_application      Restart deployment
-  remove_application       Delete deployment
-  application_logs         View logs
-
-## VPS
-
-  Tool             Description
-  ---------------- ----------------
-  list_vps         List VPS
-  get_vps          VPS details
-  restart_vps      Restart VPS
-  shutdown_vps     Shutdown VPS
-  poweron_vps      Power on VPS
-  reinstall_vps    Reinstall OS
-  reset_password   Reset password
-
-## DNS
-
-  Tool                Description
-  ------------------- ------------------
-  list_dns            List DNS records
-  add_dns_record      Create record
-  update_dns_record   Update record
-  delete_dns_record   Delete record
-
-## Billing
-
-  Tool            Description
-  --------------- ---------------
-  list_services   List services
-  list_invoices   List invoices
-  renew_service   Renew service
-
-## Support
-
-  Tool            Description
-  --------------- -----------------
-  list_tickets    View tickets
-  create_ticket   Create ticket
-  reply_ticket    Reply to ticket
-
-------------------------------------------------------------------------
-
-# Suggested Directory Structure
-
-``` text
-providers/interserver/
-
-README.md
-api.md
-installation.md
-authentication.md
-examples.md
-roadmap.md
-```
-
-------------------------------------------------------------------------
-
-# Development Roadmap
+# Roadmap
 
 ## Phase 1
 
--   Research APIs
--   Define MCP tools
--   Authentication model
--   Documentation
+- [ ] InterServer MCP
+- [ ] Cloudflare MCP
+- [ ] cPanel MCP
+- [ ] WHMCS MCP
 
 ## Phase 2
 
--   Marketplace
--   VPS
--   Billing
--   Support
+- [ ] Plesk MCP
+- [ ] Proxmox MCP
+- [ ] LiteSpeed MCP
+- [ ] Docker MCP
 
 ## Phase 3
 
--   DNS
--   Domains
--   Shared Hosting
+- [ ] Monitoring MCP Servers
+- [ ] Security MCP Servers
+- [ ] Database MCP Servers
+- [ ] Community Contributions
 
-## Phase 4
+---
 
--   Dedicated Servers
--   Email Management
--   Advanced Automation
+# Repository Structure
 
-------------------------------------------------------------------------
+```
+providers/
+cloud/
+control-panels/
+virtualization/
+dns/
+web-servers/
+databases/
+containers/
+monitoring/
+backup/
+billing/
+security/
+docs/
+examples/
+```
+
+---
 
 # Contributing
 
 Contributions are welcome.
 
-You can help by:
+You can contribute by:
 
--   Improving documentation
--   Adding API endpoints
--   Creating MCP tool definitions
--   Writing installation guides
--   Sharing prompt examples
+- Adding new MCP servers
+- Improving documentation
+- Reporting broken links
+- Adding installation guides
+- Creating tutorials
+- Improving examples
+- Updating implementation status
 
 Please open an Issue or submit a Pull Request.
 
-------------------------------------------------------------------------
+---
 
-# Disclaimer
+## Status Definitions
 
-This project is an independent community effort intended to explore MCP
-integrations for hosting platforms.
+| Status | Meaning |
+|--------|---------|
+| 🚧 Planned | An MCP server has been proposed or is planned for this provider. No official or community implementation is currently available in this repository. |
+| 🧪 Experimental | An early prototype or proof of concept exists but is not yet production-ready. |
+| ✅ Available | A working MCP server or implementation is available and documented. |
+| 🤝 Community | A community-maintained MCP implementation is available. |
+| 🛠️ In Development | Active development is in progress. |
+| ❌ Discontinued | The project is no longer maintained. |
 
-InterServer is a trademark of its respective owner. This project is not
-affiliated with, endorsed by, or maintained by InterServer unless
-explicitly stated.
+---
+
+# License
+
+This repository is licensed under the **MIT License**.
+
+---
+
+## ⭐ Support the Project
+
+If you find this repository useful, please consider:
+
+- ⭐ Starring the repository
+- 🍴 Forking the repository
+- 🛠️ Contributing new MCP servers
+- 📢 Sharing it with the hosting and AI communities
+
+Together, we can build the largest open collection of MCP servers for the hosting and infrastructure ecosystem.
