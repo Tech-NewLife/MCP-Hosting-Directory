@@ -342,51 +342,59 @@ No credentials should ever be stored in prompts.
 
 ## Marketplace
 
-  Tool                     Description
-  ------------------------ -------------------------------
-  list_marketplace_apps    List Marketplace applications
-  deploy_marketplace_app   Deploy application
-  list_deployments         List deployments
-  restart_application      Restart deployment
-  remove_application       Delete deployment
-  application_logs         View logs
+| Tool | Description |
+|------|-------------|
+| list_marketplace_apps | List Marketplace applications |
+| deploy_marketplace_app | Deploy application |
+| list_deployments | List deployments |
+| restart_application | Restart deployment |
+| remove_application | Delete deployment |
+| application_logs | View logs |
+
+---
 
 ## VPS
 
-  Tool             Description
-  ---------------- ----------------
-  list_vps         List VPS
-  get_vps          VPS details
-  restart_vps      Restart VPS
-  shutdown_vps     Shutdown VPS
-  poweron_vps      Power on VPS
-  reinstall_vps    Reinstall OS
-  reset_password   Reset password
+| Tool | Description |
+|------|-------------|
+| list_vps | List VPS |
+| get_vps | VPS details |
+| restart_vps | Restart VPS |
+| shutdown_vps | Shutdown VPS |
+| poweron_vps | Power on VPS |
+| reinstall_vps | Reinstall OS |
+| reset_password | Reset password |
+
+---
 
 ## DNS
 
-  Tool                Description
-  ------------------- ------------------
-  list_dns            List DNS records
-  add_dns_record      Create record
-  update_dns_record   Update record
-  delete_dns_record   Delete record
+| Tool | Description |
+|------|-------------|
+| list_dns | List DNS records |
+| add_dns_record | Create record |
+| update_dns_record | Update record |
+| delete_dns_record | Delete record |
+
+---
 
 ## Billing
 
-  Tool            Description
-  --------------- ---------------
-  list_services   List services
-  list_invoices   List invoices
-  renew_service   Renew service
+| Tool | Description |
+|------|-------------|
+| list_services | List services |
+| list_invoices | List invoices |
+| renew_service | Renew service |
+
+---
 
 ## Support
 
-  Tool            Description
-  --------------- -----------------
-  list_tickets    View tickets
-  create_ticket   Create ticket
-  reply_ticket    Reply to ticket
+| Tool | Description |
+|------|-------------|
+| list_tickets | View tickets |
+| create_ticket | Create ticket |
+| reply_ticket | Reply to ticket |
 
 ------------------------------------------------------------------------
 
