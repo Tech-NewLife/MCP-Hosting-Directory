@@ -1,3 +1,9 @@
+![Status](https://img.shields.io/badge/Status-Available-brightgreen)
+![API](https://img.shields.io/badge/API-Management_API-blue)
+![MCP](https://img.shields.io/badge/MCP-Official-success)
+![Docs](https://img.shields.io/badge/Documentation-Community-orange)
+
+
 # MCP Hosting Directory
 
 > A curated collection of **Model Context Protocol (MCP)** servers, SDKs, tools, and resources for hosting providers, cloud platforms, control panels, virtualization, networking, monitoring, security, and automation.
