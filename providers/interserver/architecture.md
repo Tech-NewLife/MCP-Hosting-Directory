@@ -1,3 +1,12 @@
+> [!IMPORTANT]
+> This is an independent, community-maintained specification.
+> It is not an official InterServer MCP implementation.
+>
+> The InterServer REST API references are based on publicly available
+> documentation. MCP tool names, schemas, workflows, and architecture
+> described here are proposed unless explicitly marked as implemented.
+
+
 # InterServer MCP Architecture
 
 This document provides an overview of the InterServer Model Context Protocol (MCP) architecture, its components, authentication methods, communication flow, discovery mechanisms, and integration with the InterServer API.
