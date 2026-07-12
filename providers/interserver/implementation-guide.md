@@ -9,7 +9,7 @@
 
 # Installation
 
-> Installation guide for the InterServer MCP project.
+> Implementation guide for the InterServer MCP project.
 
 **Status:** ✅ Available
 
@@ -50,28 +50,6 @@ Clone the project from GitHub.
 git clone https://github.com/<username>/MCP-Hosting-Directory.git
 
 cd MCP-Hosting-Directory/providers/interserver
-```
-
----
-
-# Install Dependencies
-
-Install the required packages.
-
-```bash
-npm install
-```
-
-or
-
-```bash
-pnpm install
-```
-
-or
-
-```bash
-yarn install
 ```
 
 ---
