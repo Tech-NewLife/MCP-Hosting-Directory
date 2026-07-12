@@ -1,3 +1,6 @@
+> These are direct InterServer Management API examples.
+> They are not MCP tool-invocation examples.
+
 # Examples
 
 This page provides practical examples of how to authenticate and interact with the InterServer API. These examples are intended as a starting point for developers building MCP servers, automation scripts, and custom integrations.
