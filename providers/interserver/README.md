@@ -6,6 +6,31 @@
 
 **Status:** 🚧 Planned
 
+## Understanding the Scope
+
+This repository is a community-driven documentation and specification project for a potential InterServer MCP (Model Context Protocol) integration. To avoid confusion, the content is organized into three distinct areas:
+
+### Official InterServer REST API
+
+These are features, endpoints, and capabilities that are publicly documented and officially supported by InterServer. All API references in this repository are based on the official InterServer API documentation and Knowledge Base.
+
+### Proposed MCP Integration
+
+This repository demonstrates how the official InterServer REST API could be exposed through the Model Context Protocol (MCP). The MCP tools, workflows, prompts, resources, and examples described here are **proposed designs** intended to help developers build MCP-compatible integrations. Unless explicitly stated, they are **not official InterServer MCP features**.
+
+### Implementation Status
+
+Unless explicitly stated otherwise, this repository is a **documentation and specification project**. It does **not** include a complete, production-ready InterServer MCP server implementation. Any implementation examples, sample workflows, or code snippets are provided for educational and reference purposes only and should not be interpreted as features currently available from InterServer.
+
+> [!IMPORTANT]
+> **Official API** – Features and endpoints currently supported and documented by InterServer.
+>
+> **Proposed MCP** – A suggested MCP interface built on top of the official InterServer REST API.
+>
+> **Implemented** – Features that are actually available in this repository or are explicitly identified as complete.
+
+---
+
 ------------------------------------------------------------------------
 
 # Overview
