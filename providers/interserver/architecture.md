@@ -220,17 +220,18 @@ Benefits include:
 
 # MCP Discovery
 
-The InterServer MCP Server supports automatic capability discovery.
+## Potential Discovery and Authorization Features
 
-Discovery resources include:
+Depending on the capabilities exposed by the current official service,
+compatible MCP deployments may use:
 
-- MCP Server Card
-- OAuth Authorization Metadata
-- OAuth Protected Resource Metadata
-- OpenAPI Specification
-- API Documentation
+- OAuth-based authorization
+- MCP server metadata
+- Protected-resource metadata
+- OpenAPI documentation
 
-These allow AI clients to automatically configure themselves and discover available capabilities.
+Developers should verify supported discovery URLs and authentication
+flows against current InterServer documentation.
 
 ---
 
@@ -362,16 +363,15 @@ Future enhancements may include:
 
 ## AI Client Support
 
-Continue improving compatibility with:
+Examples of tools that may support MCP integrations include:
 
 - Claude Desktop
-- ChatGPT
 - Cursor
-- VS Code
+- Visual Studio Code integrations
 - Windsurf
-- Future MCP-compatible AI clients
+- Other compatible MCP clients
 
----
+Support depends on the client's current MCP features and configuration.
 
 # Community Contributions
 
