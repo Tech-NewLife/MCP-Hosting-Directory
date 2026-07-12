@@ -1,3 +1,8 @@
+![Status](https://img.shields.io/badge/Status-Available-brightgreen)
+![API](https://img.shields.io/badge/API-Management_API-blue)
+![MCP](https://img.shields.io/badge/MCP-Official-success)
+![Docs](https://img.shields.io/badge/Documentation-Community-orange)
+
 # InterServer MCP
 
 > Community-maintained documentation and proposed tool mappings for the available InterServer MCP Server and Management API.
@@ -21,6 +26,32 @@ Instead of manually navigating the control panel, users can simply ask
 an AI assistant to perform common hosting tasks such as restarting a
 VPS, managing DNS records, checking invoices, deploying Marketplace
 applications, or opening support tickets.
+
+------------------------------------------------------------------------
+
+## Repository Scope
+
+This repository provides community-maintained documentation for the official InterServer MCP Server and Management API.
+
+### Included
+
+- API documentation and references
+- MCP architecture overview
+- Authentication guidance
+- REST API to MCP mapping proposals
+- Integration examples
+- Developer best practices
+
+### Not Included
+
+- An installable MCP server implementation
+- SDKs or client libraries
+- Docker images
+- Terraform modules
+- CLI tools
+- Production-ready deployment scripts
+
+The MCP tool names and workflows documented in this repository are intended as community-friendly mappings unless explicitly documented by InterServer.
 
 ------------------------------------------------------------------------
 
@@ -56,6 +87,21 @@ The InterServer MCP project aims to:
 -   Provide AI-powered server operations
 -   Standardize hosting automation using MCP
 -   Demonstrate practical MCP integrations for hosting providers
+
+------------------------------------------------------------------------
+
+## Documentation
+
+The following documents provide detailed information about the InterServer MCP Server and Management API:
+
+| Document | Description |
+|----------|-------------|
+| [authentication.md](authentication.md) | Authentication methods, API keys, and session management |
+| [architecture.md](architecture.md) | MCP architecture, components, and communication flow |
+| [api.md](api.md) | REST API reference and proposed MCP tool mappings |
+| [examples.md](examples.md) | API request examples and integration samples |
+| [roadmap.md](roadmap.md) | Repository roadmap and future enhancements |
+| [implementation-guide.md](implementation-guide.md) | Guidance for building a custom MCP implementation |
 
 ------------------------------------------------------------------------
 
