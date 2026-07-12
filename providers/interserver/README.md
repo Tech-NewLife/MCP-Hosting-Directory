@@ -4,7 +4,7 @@
 > AI assistants with InterServer hosting services and the InterServer
 > Cloud Marketplace.
 
-**Status:** 🚧 Planned
+**Status:** Status: ✅ Available
 
 ## Understanding the Scope
 
