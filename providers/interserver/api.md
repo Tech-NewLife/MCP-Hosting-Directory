@@ -16,7 +16,10 @@
 >
 > The REST endpoints, HTTP methods, request parameters, and authentication described here are based on the official InterServer OpenAPI documentation.
 >
-> The MCP tool names (for example `list_vps`, `restart_vps`, `create_dns_record`) and implementation recommendations are part of this community project and are **not** official InterServer API names. They are designed to provide a consistent MCP interface for AI assistants :contentReference[oaicite:0]{index=0}
+> The MCP tool names - for example, `list_vps`, `restart_vps`, and
+`create_dns_record - and implementation recommendations are part of this
+community project and are not official InterServer API names. They are
+designed to provide a consistent MCP interface for AI assistants.
 
 
 **API Version:** `0.9.0`  
