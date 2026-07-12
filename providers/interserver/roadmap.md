@@ -26,7 +26,7 @@ Build a secure, reliable, and developer-friendly MCP server that enables AI assi
 
 ---
 
-# Current Capabilities
+# Currently Available Features
 
 The InterServer MCP server currently supports:
 
@@ -193,7 +193,7 @@ Increase MCP tools covering:
 
 # Long-Term Vision
 
-Future improvements may include:
+Potential future enhancements to the InterServer MCP ecosystem may include:
 
 - Expanded MCP tool catalog
 - Richer MCP resources
