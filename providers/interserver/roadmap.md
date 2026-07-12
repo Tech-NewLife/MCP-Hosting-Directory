@@ -1,4 +1,4 @@
-# Roadmap
+# Repository Roadmap
 
 This roadmap outlines the vision and future direction for the InterServer MCP integration. It provides transparency into planned improvements, priorities, and long-term goals for developers building AI-powered hosting automation.
 
@@ -26,21 +26,22 @@ Build a secure, reliable, and developer-friendly MCP server that enables AI assi
 
 ---
 
-# Currently Available Features
+## Currently Documented InterServer Capabilities
 
-The InterServer MCP server currently supports:
+Based on publicly available InterServer documentation, the available
+InterServer MCP Server and Management API cover or expose service areas
+such as:
 
 - Account information
-- Public MCP endpoints
-- Private authenticated MCP endpoints
-- Hosting account management
-- VPS management
-- Dedicated server management
-- DNS operations
-- Billing information
-- Support ticket management
+- VPS services
+- Dedicated server services
+- DNS
+- Billing
+- Support tickets
 - SSL-related services
-- Hosting automation through MCP-compatible clients
+
+The exact MCP tools and permissions should be verified against the
+current official service documentation.
 
 ---
 
