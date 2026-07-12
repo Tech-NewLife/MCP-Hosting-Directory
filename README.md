@@ -1,8 +1,3 @@
-![Status](https://img.shields.io/badge/Status-Available-brightgreen)
-![API](https://img.shields.io/badge/API-Management_API-blue)
-![MCP](https://img.shields.io/badge/MCP-Official-success)
-![Docs](https://img.shields.io/badge/Documentation-Community-orange)
-
 
 # MCP Hosting Directory
 
@@ -23,29 +18,6 @@ Instead of building separate integrations for every AI application, developers c
 This repository focuses specifically on the **hosting and infrastructure ecosystem**.
 
 ---
-## Repository Scope
-
-This repository provides community-maintained documentation for the official InterServer MCP Server and Management API.
-
-### Included
-
-- API documentation and references
-- MCP architecture overview
-- Authentication guidance
-- REST API to MCP mapping proposals
-- Integration examples
-- Developer best practices
-
-### Not Included
-
-- An installable MCP server implementation
-- SDKs or client libraries
-- Docker images
-- Terraform modules
-- CLI tools
-- Production-ready deployment scripts
-
-The MCP tool names and workflows documented in this repository are intended as community-friendly mappings unless explicitly documented by InterServer.
 
 # Why MCP-Hosting-Directory?
 
