@@ -1,35 +1,13 @@
 # InterServer MCP
 
-> An MCP (Model Context Protocol) server specification for integrating
-> AI assistants with InterServer hosting services and the InterServer
-> Cloud Marketplace.
+> Community-maintained documentation and proposed tool mappings for the available InterServer MCP Server and Management API.
 
-**Status:** Status: ✅ Available
-
-## Understanding the Scope
-
-This repository is a community-driven documentation and specification project for a potential InterServer MCP (Model Context Protocol) integration. To avoid confusion, the content is organized into three distinct areas:
-
-### Official InterServer REST API
-
-These are features, endpoints, and capabilities that are publicly documented and officially supported by InterServer. All API references in this repository are based on the official InterServer API documentation and Knowledge Base.
-
-### Proposed MCP Integration
-
-This repository demonstrates how the official InterServer REST API could be exposed through the Model Context Protocol (MCP). The MCP tools, workflows, prompts, resources, and examples described here are **proposed designs** intended to help developers build MCP-compatible integrations. Unless explicitly stated, they are **not official InterServer MCP features**.
-
-### Implementation Status
-
-Unless explicitly stated otherwise, this repository is a **documentation and specification project**. It does **not** include a complete, production-ready InterServer MCP server implementation. Any implementation examples, sample workflows, or code snippets are provided for educational and reference purposes only and should not be interpreted as features currently available from InterServer.
+**Official InterServer MCP status:** ✅ Available  
+**This repository:** 📖 Community documentation and proposed mappings
 
 > [!IMPORTANT]
-> **Official API** – Features and endpoints currently supported and documented by InterServer.
->
-> **Proposed MCP** – A suggested MCP interface built on top of the official InterServer REST API.
->
-> **Implemented** – Features that are actually available in this repository or are explicitly identified as complete.
-
----
+> InterServer provides an MCP Server and Management API.
+> This repository is an independent community reference and is not affiliated with, endorsed by, or maintained by InterServer.
 
 ------------------------------------------------------------------------
 
@@ -81,7 +59,7 @@ The InterServer MCP project aims to:
 
 ------------------------------------------------------------------------
 
-# Planned Features
+# Available and Proposed Capabilities
 
 # InterServer Cloud Marketplace
 
@@ -259,16 +237,14 @@ Supported Actions:
 
 ------------------------------------------------------------------------
 
-# Authentication
+## Authentication
 
-Supported methods:
+Verified InterServer Management API authentication methods:
 
--   API Keys
--   OAuth (if available)
--   Access Tokens
--   Session Authentication
+- API key using the `X-API-KEY` header
+- Session-based authentication
 
-No credentials should ever be stored in prompts.
+Additional authentication methods should only be listed when verified in current official InterServer documentation.
 
 ------------------------------------------------------------------------
 
